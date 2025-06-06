@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FinSweet</title>
+    <link rel="shortcut icon" href="/public/images/icons/624607fc89346558929be22f_fs-favicon.png" type="image/x-icon"></head>
+  <body>
+    <!-- start part1 -->
+    <header class="z-10 fixed top-0 w-full">
+      <div class="relative">
+        <nav class="align-middle inline-flex max-lg:px-[80px] py-8 bg-[rgb(28,30,83)] w-full justify-between px-[calc(100%/calc(1600/160))]">
+          <input type="radio" name="BTN" id="show">
+          <input type="radio" name="BTN" id="close">
+          <ul class="inline-flex">
+            <li>
+              <a href="#" class="text-[white] text-[1.5rem] font-bold">            <svg
+                width="122"
+                height="25"
+                viewBox="0 0 122 25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_26223_480)">
+                  <path
+                    d="M121.784 18.8719V21.891H119.252C116.549 21.806 115.105 20.3467 115.105 17.6055V10.7102H113.337V8.06174H115.105V5.09668H118.842V8.03086H121.699V10.6716H118.842V17.2349C118.842 18.1229 119.02 18.8333 120.387 18.8333L121.784 18.8719Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M98.4416 15.0033V14.8026C98.4011 13.9145 98.5364 13.0272 98.8395 12.1914C99.1427 11.3557 99.6078 10.5881 100.208 9.93242C100.809 9.27679 101.532 8.7461 102.338 8.37076C103.144 7.99541 104.016 7.78281 104.904 7.74512C105.082 7.74512 105.267 7.74512 105.445 7.74512C108.974 7.74512 112.07 9.79904 112.07 14.6945V15.7369H102.264C102.364 17.9916 103.584 19.2656 105.638 19.2656C107.406 19.2656 108.232 18.4935 108.472 17.3661H112.001C111.568 20.308 109.221 21.945 105.507 21.945C101.43 21.9141 98.4416 19.3351 98.4416 15.0033ZM108.395 13.3741C108.263 11.3202 107.229 10.3318 105.43 10.3318C103.63 10.3318 102.596 11.4437 102.341 13.3741H108.395Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M83.1838 15.0033V14.8026C83.1433 13.9157 83.278 13.0296 83.5802 12.1949C83.8824 11.3601 84.3462 10.5931 84.9449 9.93769C85.5437 9.28226 86.2658 8.75126 87.0699 8.37505C87.874 7.99883 88.7444 7.78478 89.6312 7.74512C89.8088 7.74512 89.9942 7.74512 90.1717 7.74512C93.7005 7.74512 96.8045 9.79904 96.8045 14.6945V15.7369H87.0059C87.1063 17.9916 88.3263 19.2656 90.3802 19.2656C92.1485 19.2656 92.9747 18.4935 93.214 17.3661H96.7428C96.3026 20.308 93.9553 21.945 90.2412 21.945C86.172 21.9141 83.1838 19.3351 83.1838 15.0033ZM93.1368 13.3741C93.0055 11.3202 91.9709 10.3318 90.1717 10.3318C88.3726 10.3318 87.3688 11.4746 87.0831 13.3664L93.1368 13.3741Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M61.7725 8.03027H65.7259L68.1427 17.188L70.7912 8.03027H73.8798L76.2735 17.188L78.8216 8.03027H82.443L78.1498 21.6356H74.4435L72.127 13.0956L69.6484 21.6356H65.8958L61.7725 8.03027Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M49.209 17.358H52.7377C52.8999 18.5858 53.5099 19.2884 55.1314 19.2884C56.583 19.2884 57.2548 18.7402 57.2548 17.8059C57.2548 16.8716 56.4827 16.4778 54.506 16.1998C50.8846 15.6516 49.487 14.6092 49.487 11.953C49.487 9.11918 52.0814 7.71387 54.892 7.71387C57.9111 7.71387 60.189 8.81032 60.5133 11.9375H57.0309C57.0087 11.6958 56.9388 11.4608 56.8252 11.2462C56.7117 11.0317 56.5567 10.8417 56.3693 10.6873C56.1819 10.533 55.9658 10.4173 55.7335 10.3469C55.5011 10.2766 55.2571 10.2529 55.0156 10.2774H54.8997C53.6797 10.2774 52.9694 10.8488 52.9694 11.6827C52.9694 12.5167 53.6257 12.8796 55.6178 13.1653C58.9999 13.6749 60.8916 14.532 60.8916 17.443C60.8916 20.354 58.7528 21.9137 55.17 21.9137C51.5872 21.9137 49.3094 20.2999 49.209 17.358Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M34.2139 8.03H37.9511V10.1843C38.3723 9.39357 39.0117 8.74039 39.7933 8.30239C40.5748 7.86438 41.4657 7.65996 42.3601 7.71342C45.0085 7.71342 46.9312 9.32721 46.9312 13.0104V21.6662H43.2403V13.5509C43.2403 11.7054 42.5222 10.8252 40.8544 10.8252C40.5019 10.7945 40.1467 10.8337 39.8094 10.9406C39.4721 11.0476 39.1593 11.22 38.8888 11.4482C38.6183 11.6763 38.3955 11.9556 38.2333 12.2701C38.0711 12.5846 37.9725 12.928 37.9434 13.2806C37.9241 13.4448 37.9241 13.6107 37.9434 13.7748V21.6353H34.2139V8.03Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M27.0022 4.60972C26.9887 4.2371 27.086 3.86885 27.2819 3.55157C27.4777 3.2343 27.7633 2.98228 28.1025 2.82742C28.4417 2.67256 28.8192 2.62182 29.1872 2.68162C29.5553 2.74143 29.8973 2.90909 30.17 3.16339C30.4427 3.41768 30.6338 3.74717 30.7191 4.11014C30.8044 4.4731 30.7801 4.85323 30.6493 5.20238C30.5184 5.55153 30.287 5.85401 29.9841 6.07153C29.6813 6.28904 29.3207 6.4118 28.948 6.42428H28.8785C28.6473 6.43891 28.4154 6.40774 28.1961 6.33255C27.9769 6.25736 27.7747 6.13963 27.6011 5.98611C27.4275 5.83258 27.2859 5.6463 27.1845 5.43793C27.083 5.22956 27.0237 5.00321 27.0099 4.77187C27.0035 4.71807 27.0009 4.66388 27.0022 4.60972ZM27.0022 8.03035H30.778V21.6357H27.0177L27.0022 8.03035Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M12.7715 3.04199H24.709V6.33908H16.9874V11.2577H23.1029V14.4312H16.9797V21.6354H12.7715V3.04199Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M5.56722 9.12683C5.56722 10.2928 5.56722 11.7135 3.96114 12.2927C5.60582 12.8563 5.56722 14.0532 5.56722 15.3041V19.937C5.56722 20.8172 5.92241 21.35 6.55557 21.4813C6.6947 21.5282 6.84127 21.5491 6.98797 21.543H8.53228V24.6316H5.98418C3.2662 24.6316 1.76823 23.0873 1.76823 20.2227V14.7404C1.74895 14.4589 1.62485 14.1949 1.42043 14.0005C1.216 13.8061 0.946116 13.6954 0.664051 13.6903H0V10.98H0.664051C0.951744 10.9762 1.22693 10.8618 1.43252 10.6605C1.63812 10.4592 1.75833 10.1865 1.76823 9.89899V4.33949C1.76823 1.52114 3.23532 0 5.98418 0H8.55544V3.04228H7.01114C6.86426 3.0427 6.71835 3.06615 6.57873 3.11177C5.94557 3.27392 5.59038 3.79899 5.59038 4.65608L5.56722 9.12683Z"
+                    fill="white"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_26223_480">
+                    <rect width="122" height="24.7089" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg></a>
+            </li>
+          </ul>
+          <label for="show" class="cursor-pointer show">
+            <div></div>
+            <div></div>
+            <div></div>
+          </label>
+          <ul class="bg-[rgb(28,30,83)] subMenu px-[calc(100%/calc(1600/160))] flex-col py-6 inline-flex w-full absolute">
+            <li class="justify-end inline-flex">
+            <label for="close" class="bg-[rgb(28,30,83)] cursor-pointer text-[#ffffff] text-[2.25rem] rounded-2xl close">&times;</label>
+  
+            </li>
+            <li class="justify-end inline-flex py-3">
+              <a href="/index.html" class="hover:text-[white] duration-200 ease-linear text-[rgb(187,187,203)] capitalize">home</a>
+            </li>
+            <li class="inline-flex py-3 justify-end">
+              <a href="/public/Pricing.html" class="hover:text-[white] text-[rgb(187,187,203)] capitalize duration-200 ease-linear">pricing</a>
+            </li>
+            <li class="py-3 inline-flex justify-end">
+              <a href="/public/Blog.html" class="capitalize hover:text-[white] text-[rgb(187,187,203)] duration-200 ease-linear">blog</a>
+            </li>
+            <li class="justify-end py-3 inline-flex">
+              <a href="#" class="capitalize text-[#ffffff]">about us</a>
+            </li>
+            <li>
+              <a href="#" class="py-3 border-[#BBBBCB] btn border-2 px-7 text-[white] rounded-[1.5rem] capitalize">contact us</a>
+            </li>
+          </ul>
+          <ul class="gap-8 inline-flex justify-end"> 
+            <li>
+              <a href="/index.html" class="capitalize text-[rgb(187,187,203)]">home</a>
+            </li>
+            <li>
+              <a href="/public/Pricing.html" class="text-[rgb(187,187,203)] hover:text-[white] duration-200 ease-linear capitalize">pricing</a>
+            </li>
+            <li>
+              <a href="/public/Blog.html" class="capitalize hover:text-[#BBBBCB] duration-200 ease-linear text-[rgb(187,187,203)]">blog</a>
+            </li>
+            <li>
+              <a href="/public/About-us.html" class="duration-200 ease-linear text-[#ffffff] capitalize hover:text-[white]">about us</a>
+            </li>
+            <li>
+              <a href="#" class="hover:bg-[#FDE4A6] btn px-7 py-3 capitalize border-[#BBBBCB] text-[white] border-2 duration-200 ease-linear hover:text-[#2b2b2b] hover:border-transparent rounded-[1.5rem]">contact us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- end part1 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- start part2 -->
+    <div
+      class="justify-between -z-30 px-[calc(100%/calc(1600/160))] inline-flex lg:flex-row min-[0px]:gap-10 w-full items-center min-[0px]:flex-col mt-[180px]"
+    >
+      <div class="lg:w-1/2 text-[#282938] gap-8 justify-start flex-col inline-flex min-[0px]:w-full">
+        <p class="font-normal text-[1.25rem]">About us</p>
+        <p class="leading-15 text-[3rem] font-bold">Our designs solve problems</p>
+        <p class="w-2/3 text-[1rem]">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam.
+        </p>
+      </div>
+      <div>
+        <img src="/public/images/about us/heroimage/hero.png" alt="finsweet" />
+      </div>
+    </div>
+    <!-- end part2 -->
+
+
+
+
+
+
+
+
+
+    <!-- start part3-->
+    <div class="inline-flex px-[calc(100%/calc(1600/160))] mt-[100px] w-full flex-col">
+      <div
+        class="justify-center items-center lg:gap-20 lg:flex-row inline-flex bg-[#F4F5F5] p-[calc(100%/calc(1600/100))] min-[0px]:flex-col"
+      >
+        <div class="items-start lg:w-1/2 text-[#282938] min-[0px]:w-full flex-col gap-5 inline-flex">
+          <p class="font-normal text-[1.25rem]">Who we are</p>
+          <p class="font-bold text-3xl">Goal focussed</p>
+          <p class="text-[1rem]">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+        <div
+          class="gap-5 inline-flex text-[#282938] min-[0px]:w-full items-start flex-col justify-center lg:w-1/2"
+        >
+          <p>&nbsp;</p>
+          <p class="font-bold text-3xl">Goal focussed</p>
+          <p class="text-[1rem]">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </div>
+      <div>
+        <img src="/public/images/about us/whoWeAre/whoWeAre.png" alt="Finsweet" />
+      </div>
+    </div>
+    <!-- end part3 -->
+
+
+
+
+
+
+
+    <!-- start part4 -->
+    <div
+      class="mt-[100px] items-center px-[calc(100%/calc(1600/160))] text-[#282938] flex-col inline-flex gap-20 w-full"
+    >
+      <div>
+        <p class="min-[0px]:text-3xl font-bold lg:text-5xl">The process we follow</p>
+      </div>
+      <div class="lg:flex-row inline-flex min-[0px]:flex-col gap-10">
+        <div class="inline-flex flex-col items-start min-[0px]:w-full gap-5 lg:w-1/4">
+          <img src="/public/images/about us/process/process_line.png" alt="Finsweet" />
+          <p class="text-[1.5rem] font-medium">Planning</p>
+          <p class="text-[1rem]">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+          </p>
+        </div>
+        <div class="items-start flex-col gap-5 min-[0px]:w-full lg:w-1/4 inline-flex">
+          <img src="/public/images/about us/process/process_line.png" alt="Finsweet" />
+          <p class="font-medium text-[1.5rem]">Conception</p>
+          <p class="text-[1rem]">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+          </p>
+        </div>
+        <div class="gap-5 lg:w-1/4 items-start inline-flex flex-col min-[0px]:w-full">
+          <img src="/public/images/about us/process/process_line.png" alt="Finsweet" />
+          <p class="text-[1.5rem] font-medium">Design</p>
+          <p class="text-[1rem]">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+          </p>
+        </div>
+        <div class="inline-flex flex-col min-[0px]:w-full gap-5 items-start lg:w-1/4">
+          <img src="/public/images/about us/process/process_line.png" alt="Finsweet" />
+          <p class="font-medium text-[1.5rem]">Development</p>
+          <p class="text-[1rem]">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- end part4 -->
+
+
+
+
+
+
+
+
+    <!-- start part5-->
+    <div
+      class="px-[calc(100%/calc(1600/160))] py-32 bg-[#EEF4FA] flex-col inline-flex mt-[100px] text-[#282938] gap-30 w-full"
+    >
+      <div
+        class="lg:flex-row lg:gap-[calc(100%/calc(1600/140))] items-center inline-flex justify-between min-[0px]:gap-10 min-[0px]:flex-col"
+      >
+        <div class="lg:w-3/7 gap-10 items-start inline-flex min-[0px]:w-full flex-col">
+          <p class="font-bold">Our Mission</p>
+          <p class="text-[2.25rem] font-bold">Inspire, Innovate, Share</p>
+          <p class="text-[1rem]">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+        <div class="lg:w-3/7 min-[0px]:w-full">
+          <img src="/public/images/about us/ourmissions/mission.png" alt="Finsweet" />
+        </div>
+      </div>
+      <div
+        class="min-[0px]:flex-col min-[0px]:gap-10 lg:flex-row items-center inline-flex min-[0px]:items-center lg:gap-[calc(100%/calc(1600/110))] justify-between min-[0px]:justify-center"
+      >
+        <div class="lg:w-4/8 min-[0px]:w-full">
+          <img src="/public/images/about us/ourmissions/vision.png" alt="Finsweet" />
+        </div>
+        <div class="items-start flex-col gap-10 inline-flex min-[0px]:w-full lg:w-4/8">
+          <p class="font-bold">Our Mission</p>
+          <p class="font-bold text-[2.25rem]">Inspire, Innovate, Share</p>
+          <p class="text-[1rem]">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- end part5 -->
+
+
+
+
+
+
+
+
+    <!-- start part6 -->
+    <div
+      class="px-[calc(100%/calc(1600/160))] inline-flex justify-center text-[#282938] items-center gap-20 flex-col text-center mt-[100px]"
+    >
+      <p class="min-[0px]:w-3/4 font-bold lg:w-1/3 text-[2.25rem]">The benefits of working with us</p>
+      <div
+        class="justify-center lg:flex-row inline-flex min-[0px]:flex-col gap-10"
+      >
+        <div
+          class="items-start min-[0px]:w-full flex-col bg-[#F4F6FC] inline-flex text-start lg:w-1/3 gap-10 p-9"
+        >
+          <img
+            src="/public/images/about us/working with us/benefitone.png"
+            alt="image"
+          />
+          <p class="text-[1.5rem] font-medium">Customize with ease</p>
+          <p class="text-[1rem]">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim.
+          </p>
+        </div>
+        <div
+          class="text-start bg-[#F4F6FC] items-start lg:w-1/3 inline-flex flex-col min-[0px]:w-full gap-10 p-9"
+        >
+          <img
+            src="/public/images/about us/working with us/benefittwo.png"
+            alt="image"
+          />
+          <p class="font-medium text-[1.5rem]">Perfectly Responsive</p>
+          <p class="text-[1rem]">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim.
+          </p>
+        </div>
+        <div
+          class="p-9 inline-flex lg:w-1/3 bg-[#F4F6FC] text-start flex-col min-[0px]:w-full gap-10 items-start"
+        >
+          <img
+            src="/public/images/about us/working with us/benefitthree.png"
+            alt="image"
+          />
+          <p class="font-medium text-[1.5rem]">Friendly Support</p>
+          <p class="text-[1rem]">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim.
+          </p>
+        </div>
+      </div>
+      <div
+        class="min-[0px]:flex-wrap flex-row gap-18 lg:flex-nowrap items-center inline-flex justify-center"
+      >
+        <div class="justify-start inline-flex flex-col items-start w-1/6">
+          <p class="sm:text-3xl font-bold max-[640px]:text-2xl">100.000+</p>
+          <p class="text-nowrap text-[1rem]">Finsweet Users</p>
+        </div>
+        <div class="w-1/6">
+          <img src="/public/images/about us/working with us/flogo1.png" alt="logo" />
+        </div>
+        <div class="w-1/6">
+          <img src="/public/images/about us/working with us/flogo2.png" alt="logo" />
+        </div>
+        <div class="w-1/6">
+          <img src="/public/images/about us/working with us/flogo3.png" alt="logo" />
+        </div>
+        <div class="w-1/6">
+          <img src="/public/images/about us/working with us/flogo4.png" alt="logo" />
+        </div>
+        <div class="w-1/6">
+          <img src="/public/images/about us/working with us/flogo5.png" alt="logo" />
+        </div>
+      </div>
+    </div>
+    <!-- end part6 -->
+
+
+
+
+    <!-- start part7 -->
+    <div
+      class="mt-[100px] inline-flex items-center text-[#282938] justify-center gap-20 w-full px-[calc(100%/calc(1600/160))] bg-[#F4F6FC] py-[calc(100%/calc(1600/130))] flex-col"
+    >
+      <p class="font-bold min-[0px]:text-3xl lg:text-5xl">Meet our team</p>
+      <div class="min-[0px]:flex-wrap lg:flex-row inline-flex items-center gap-10 justify-center">
+        <div
+          class="flex-col group bg-white p-10 inline-flex items-center justify-center gap-10"
+        >
+          <div class="relative">
+            <img
+              src="/public/images/about us/ourTeam/card1.png"
+              alt="finsweet"
+              class=""
+            />
+            <div
+              class="sm:group-hover:bg-[linear-gradient(1deg,rgba(82,57,250,1)0%,rgba(255,255,255,1)100%)] opacity-60 absolute rounded-full h-full items-end max-[640px]:bg-[linear-gradient(1deg,rgba(82,57,250,1)0%,rgba(255,255,255,1)100%)] top-0 justify-center py-5 gap-2 inline-flex w-full flex-row"
+            >
+              <a href="#">
+                <img
+                  src="/public/images/icons/facebook-svgrepo.svg"
+                  class="group-hover:opacity-100 w-5 duration-200 sm:opacity-0 ease-linear max-[640px]:opacity-100"
+                  alt="img"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="/public/images/icons/linkdin.svg"
+                  class="duration-200 w-5 sm:opacity-0 group-hover:opacity-100 max-[640px]:opacity-100 ease-linear"
+                  alt="img"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="/public/images/icons/twitter-154-svgrepo-com.svg"
+                  class="ease-linear sm:opacity-0 group-hover:opacity-100 max-[640px]:opacity-100 duration-200 w-5"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+          <div class="text-center inline-flex flex-col gap-2">
+            <p class="text-[1.5rem] font-medium">John Smith</p>
+            <p class="text-[1rem]">Project Manager</p>
+          </div>
+        </div>
+        <div
+          class="inline-flex gap-10 items-center flex-col group bg-white p-10 justify-center"
+        >
+          <div class="relative">
+            <img
+              src="/public/images/about us/ourTeam/card2.png"
+              alt="finsweet"
+              class=""
+            />
+            <div
+              class="h-full py-5 w-full sm:group-hover:bg-[linear-gradient(1deg,rgba(82,57,250,1)0%,rgba(255,255,255,1)100%)] top-0 justify-center flex-row rounded-full max-[640px]:bg-[linear-gradient(1deg,rgba(82,57,250,1)0%,rgba(255,255,255,1)100%)] gap-2 opacity-60 items-end absolute inline-flex"
+            >
+              <a href="#">
+                <img
+                  src="/public/images/icons/facebook-svgrepo.svg"
+                  class="duration-200 max-[640px]:opacity-100 ease-linear w-5 group-hover:opacity-100 sm:opacity-0"
+                  alt="img"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="/public/images/icons/linkdin.svg"
+                  class="sm:opacity-0 max-[640px]:opacity-100 ease-linear duration-200 group-hover:opacity-100 w-5"
+                  alt="img"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="/public/images/icons/twitter-154-svgrepo-com.svg"
+                  class="w-5 duration-200 group-hover:opacity-100 sm:opacity-0 max-[640px]:opacity-100 ease-linear"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+          <div class="flex-col text-center inline-flex gap-2">
+            <p class="font-medium text-[1.5rem]">Simon Adams</p>
+            <p class="text-[1rem]">Project Manager</p>
+          </div>
+        </div>
+        <div
+          class="group gap-10 flex-col justify-center items-center bg-white inline-flex p-10"
+        >
+          <div class="relative">
+            <img
+              src="/public/images/about us/ourTeam/card3.png"
+              alt="finsweet"
+              class=""
+            />
+            <div
+              class="absolute sm:group-hover:bg-[linear-gradient(1deg,rgba(82,57,250,1)0%,rgba(255,255,255,1)100%)] gap-2 inline-flex max-[640px]:bg-[linear-gradient(1deg,rgba(82,57,250,1)0%,rgba(255,255,255,1)100%)] flex-row w-full py-5 rounded-full items-end justify-center h-full opacity-60 top-0"
+            >
+              <a href="#">
+                <img
+                  src="/public/images/icons/facebook-svgrepo.svg"
+                  class="w-5 sm:opacity-0 ease-linear group-hover:opacity-100 max-[640px]:opacity-100 duration-200"
+                  alt="img"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="/public/images/icons/linkdin.svg"
+                  class="group-hover:opacity-100 duration-200 sm:opacity-0 ease-linear w-5 max-[640px]:opacity-100"
+                  alt="img"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="/public/images/icons/twitter-154-svgrepo-com.svg"
+                  class="group-hover:opacity-100 ease-linear max-[640px]:opacity-100 duration-200 w-5 sm:opacity-0"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+          <div class="gap-2 text-center flex-col inline-flex">
+            <p class="font-medium text-[1.5rem]">Paul Jones</p>
+            <p class="text-[1rem]">Project Manager</p>
+          </div>
+        </div>
+        <div
+          class="group justify-center items-center p-10 inline-flex bg-white flex-col gap-10"
+        >
+          <div class="relative">
+            <img
+              src="/public/images/about us/ourTeam/card4.png"
+              alt="finsweet"
+              class=""
+            />
+            <div
+              class="absolute opacity-60 py-5 flex-row sm:group-hover:bg-[linear-gradient(1deg,rgba(82,57,250,1)0%,rgba(255,255,255,1)100%)] gap-2 h-full max-[640px]:bg-[linear-gradient(1deg,rgba(82,57,250,1)0%,rgba(255,255,255,1)100%)] top-0 justify-center inline-flex w-full items-end rounded-full"
+            >
+              <a href="#">
+                <img
+                  src="/public/images/icons/facebook-svgrepo.svg"
+                  class="duration-200 w-5 ease-linear max-[640px]:opacity-100 group-hover:opacity-100 sm:opacity-0"
+                  alt="img"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="/public/images/icons/linkdin.svg"
+                  class="sm:opacity-0 max-[640px]:opacity-100 group-hover:opacity-100 duration-200 w-5 ease-linear"
+                  alt="img"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="/public/images/icons/twitter-154-svgrepo-com.svg"
+                  class="w-5 duration-200 group-hover:opacity-100 ease-linear sm:opacity-0 max-[640px]:opacity-100"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+          <div class="inline-flex flex-col gap-2 text-center">
+            <p class="font-medium text-[1.5rem]">Sara Hardin</p>
+            <p class="text-[1rem]">Project Manager</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end part7 -->
+
+
+
+
+
+
+
+
+
+      <!-- start  part8 footer -->
+    <div
+    class="bg-[rgb(28,30,83)] mt-[100px] lg:gap-[calc(100%/calc(1600/320))] lg:flex-row py-[96px] justify-start min-[0px]:gap-40 px-[calc(100%/calc(1600/160))] inline-flex min-[0px]:flex-col w-full"
+  >
+    <div class="flex-col inline-flex relative">
+      <div class="inline-flex lg:w-1/2 flex-col gap-5">
+        <p class="text-[1.5rem] text-[white] font-bold">            <svg
+          width="122"
+          height="25"
+          viewBox="0 0 122 25"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g clip-path="url(#clip0_26223_480)">
+            <path
+              d="M121.784 18.8719V21.891H119.252C116.549 21.806 115.105 20.3467 115.105 17.6055V10.7102H113.337V8.06174H115.105V5.09668H118.842V8.03086H121.699V10.6716H118.842V17.2349C118.842 18.1229 119.02 18.8333 120.387 18.8333L121.784 18.8719Z"
+              fill="white"
+            />
+            <path
+              d="M98.4416 15.0033V14.8026C98.4011 13.9145 98.5364 13.0272 98.8395 12.1914C99.1427 11.3557 99.6078 10.5881 100.208 9.93242C100.809 9.27679 101.532 8.7461 102.338 8.37076C103.144 7.99541 104.016 7.78281 104.904 7.74512C105.082 7.74512 105.267 7.74512 105.445 7.74512C108.974 7.74512 112.07 9.79904 112.07 14.6945V15.7369H102.264C102.364 17.9916 103.584 19.2656 105.638 19.2656C107.406 19.2656 108.232 18.4935 108.472 17.3661H112.001C111.568 20.308 109.221 21.945 105.507 21.945C101.43 21.9141 98.4416 19.3351 98.4416 15.0033ZM108.395 13.3741C108.263 11.3202 107.229 10.3318 105.43 10.3318C103.63 10.3318 102.596 11.4437 102.341 13.3741H108.395Z"
+              fill="white"
+            />
+            <path
+              d="M83.1838 15.0033V14.8026C83.1433 13.9157 83.278 13.0296 83.5802 12.1949C83.8824 11.3601 84.3462 10.5931 84.9449 9.93769C85.5437 9.28226 86.2658 8.75126 87.0699 8.37505C87.874 7.99883 88.7444 7.78478 89.6312 7.74512C89.8088 7.74512 89.9942 7.74512 90.1717 7.74512C93.7005 7.74512 96.8045 9.79904 96.8045 14.6945V15.7369H87.0059C87.1063 17.9916 88.3263 19.2656 90.3802 19.2656C92.1485 19.2656 92.9747 18.4935 93.214 17.3661H96.7428C96.3026 20.308 93.9553 21.945 90.2412 21.945C86.172 21.9141 83.1838 19.3351 83.1838 15.0033ZM93.1368 13.3741C93.0055 11.3202 91.9709 10.3318 90.1717 10.3318C88.3726 10.3318 87.3688 11.4746 87.0831 13.3664L93.1368 13.3741Z"
+              fill="white"
+            />
+            <path
+              d="M61.7725 8.03027H65.7259L68.1427 17.188L70.7912 8.03027H73.8798L76.2735 17.188L78.8216 8.03027H82.443L78.1498 21.6356H74.4435L72.127 13.0956L69.6484 21.6356H65.8958L61.7725 8.03027Z"
+              fill="white"
+            />
+            <path
+              d="M49.209 17.358H52.7377C52.8999 18.5858 53.5099 19.2884 55.1314 19.2884C56.583 19.2884 57.2548 18.7402 57.2548 17.8059C57.2548 16.8716 56.4827 16.4778 54.506 16.1998C50.8846 15.6516 49.487 14.6092 49.487 11.953C49.487 9.11918 52.0814 7.71387 54.892 7.71387C57.9111 7.71387 60.189 8.81032 60.5133 11.9375H57.0309C57.0087 11.6958 56.9388 11.4608 56.8252 11.2462C56.7117 11.0317 56.5567 10.8417 56.3693 10.6873C56.1819 10.533 55.9658 10.4173 55.7335 10.3469C55.5011 10.2766 55.2571 10.2529 55.0156 10.2774H54.8997C53.6797 10.2774 52.9694 10.8488 52.9694 11.6827C52.9694 12.5167 53.6257 12.8796 55.6178 13.1653C58.9999 13.6749 60.8916 14.532 60.8916 17.443C60.8916 20.354 58.7528 21.9137 55.17 21.9137C51.5872 21.9137 49.3094 20.2999 49.209 17.358Z"
+              fill="white"
+            />
+            <path
+              d="M34.2139 8.03H37.9511V10.1843C38.3723 9.39357 39.0117 8.74039 39.7933 8.30239C40.5748 7.86438 41.4657 7.65996 42.3601 7.71342C45.0085 7.71342 46.9312 9.32721 46.9312 13.0104V21.6662H43.2403V13.5509C43.2403 11.7054 42.5222 10.8252 40.8544 10.8252C40.5019 10.7945 40.1467 10.8337 39.8094 10.9406C39.4721 11.0476 39.1593 11.22 38.8888 11.4482C38.6183 11.6763 38.3955 11.9556 38.2333 12.2701C38.0711 12.5846 37.9725 12.928 37.9434 13.2806C37.9241 13.4448 37.9241 13.6107 37.9434 13.7748V21.6353H34.2139V8.03Z"
+              fill="white"
+            />
+            <path
+              d="M27.0022 4.60972C26.9887 4.2371 27.086 3.86885 27.2819 3.55157C27.4777 3.2343 27.7633 2.98228 28.1025 2.82742C28.4417 2.67256 28.8192 2.62182 29.1872 2.68162C29.5553 2.74143 29.8973 2.90909 30.17 3.16339C30.4427 3.41768 30.6338 3.74717 30.7191 4.11014C30.8044 4.4731 30.7801 4.85323 30.6493 5.20238C30.5184 5.55153 30.287 5.85401 29.9841 6.07153C29.6813 6.28904 29.3207 6.4118 28.948 6.42428H28.8785C28.6473 6.43891 28.4154 6.40774 28.1961 6.33255C27.9769 6.25736 27.7747 6.13963 27.6011 5.98611C27.4275 5.83258 27.2859 5.6463 27.1845 5.43793C27.083 5.22956 27.0237 5.00321 27.0099 4.77187C27.0035 4.71807 27.0009 4.66388 27.0022 4.60972ZM27.0022 8.03035H30.778V21.6357H27.0177L27.0022 8.03035Z"
+              fill="white"
+            />
+            <path
+              d="M12.7715 3.04199H24.709V6.33908H16.9874V11.2577H23.1029V14.4312H16.9797V21.6354H12.7715V3.04199Z"
+              fill="white"
+            />
+            <path
+              d="M5.56722 9.12683C5.56722 10.2928 5.56722 11.7135 3.96114 12.2927C5.60582 12.8563 5.56722 14.0532 5.56722 15.3041V19.937C5.56722 20.8172 5.92241 21.35 6.55557 21.4813C6.6947 21.5282 6.84127 21.5491 6.98797 21.543H8.53228V24.6316H5.98418C3.2662 24.6316 1.76823 23.0873 1.76823 20.2227V14.7404C1.74895 14.4589 1.62485 14.1949 1.42043 14.0005C1.216 13.8061 0.946116 13.6954 0.664051 13.6903H0V10.98H0.664051C0.951744 10.9762 1.22693 10.8618 1.43252 10.6605C1.63812 10.4592 1.75833 10.1865 1.76823 9.89899V4.33949C1.76823 1.52114 3.23532 0 5.98418 0H8.55544V3.04228H7.01114C6.86426 3.0427 6.71835 3.06615 6.57873 3.11177C5.94557 3.27392 5.59038 3.79899 5.59038 4.65608L5.56722 9.12683Z"
+              fill="white"
+            />
+          </g>
+          <defs>
+            <clipPath id="clip0_26223_480">
+              <rect width="122" height="24.7089" fill="white" />
+            </clipPath>
+          </defs>
+        </svg></p>
+        <p class="text-[#ffffff] text-[1rem] sm:w-sm min-[0px]:w-full">
+          We are always open to discuss your project and improve your online
+          presence.
+        </p>
+      </div>
+      <div
+        class="lg:top-[105%] pr-30 bg-[#FCD980] pl-6 gap-13 absolute min-[0px]:top-[120%] min-[0px]:flex-col sm:flex-row py-4 inline-flex"
+      >
+        <div>
+          <p class="text-[1.5rem]">Email me at</p>
+          <p class="text-[1rem]">contact@website.com</p>
+        </div>
+        <div>
+          <p class="text-[1.5rem]">Call us</p>
+          <p class="text-[1rem]">0927627728525</p>
+        </div>
+      </div>
+    </div>
+    <div class="gap-5 flex-col inline-flex lg:w-1/2">
+      <p class="font-bold text-[white] text-[2.25rem] w-full">Lets Talk!</p>
+      <p class="text-[1rem] text-[#ffffff] w-full">
+        We are always open to discuss your project and improve your online
+        presence.
+      </p>
+      <ul class="inline-flex gap-3 w-full flex-row">
+        <li>
+          <a href="#">
+            <img
+              src="/public/images/icons/facebook-svgrepo.svg"
+              class="w-7"
+              alt="icone"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img
+              src="/public/images/icons/instagram-167-svgrepo-com.svg"
+              class="w-7"
+              alt="icone"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="/public/images/icons/linkdin.svg" class="w-7" alt="icone" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img
+              src="/public/images/icons/twitter-154-svgrepo-com.svg"
+              class="w-7"
+              alt="icone"
+            />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- end part8 footer  -->
+
+
+
+
+  
+      <!-- start part8-1  -->
+       <div class="lg:justify-between py-8 px-[calc(100%/calc(1600/160))] min-[0px]:flex-col w-full lg:flex-row inline-flex bg-white min-[0px]:gap-14">
+        <p class="font-normal text-[1.25rem] text-[#282938]">Copyright 2021, Finsweet.com</p>
+        <ul class="gap-10 inline-flex flex-row">
+          <li>
+            <a href="/index.html" class="capitalize">home</a>
+          </li>
+          <li>
+            <a href="/public/Pricing.html" class="capitalize">pricing</a>
+          </li>
+          <li>
+            <a href="/public/Blog.html" class="capitalize">blog</a>
+          </li>
+          <li>
+            <a href="#" class="capitalize">about us</a>
+          </li>
+        </ul>
+       </div>
+      <!-- end part8-1  -->
+    <script type="module" src="/src/js/main.js"></script>
+  </body>
+</html>
